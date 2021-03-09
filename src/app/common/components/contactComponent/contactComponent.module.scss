@@ -1,0 +1,16 @@
+@import "../../styles/mixins.module.scss";
+
+.social_container {
+  .icon_link {
+    margin-left: 29px;
+    @include on_click_button;
+  }
+
+  .icon {
+    width: 16px;
+  }
+
+  .icon_link:first-child {
+    margin-left: 0px;
+  }
+}
